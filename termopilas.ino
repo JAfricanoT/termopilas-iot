@@ -7,7 +7,7 @@
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
 
-// Miscelaneo
+// Miscellaneous
 const String moduleID = MODULE_ID;
 
 // Relays
