@@ -22,8 +22,12 @@ Desde el Arduino IDE y abrimos el sketch llamado 'termopilas'.
 
 ### Librerias
 
+- [UNIT-PN532](https://github.com/JAfricanoT/UNIT-PN532)
+- [Adafruit BusIO by Adafruit](https://github.com/adafruit/Adafruit_BusIO)
+- [ArduinoJson by Benoit](https://github.com/bblanchon/ArduinoJson)
+- [MFRC522 by GithubCommunity](https://github.com/miguelbalboa/rfid) 
 
-**Importante:** se debe borrar el header TermopilasConfig, para eso solo se debe eliminar la fila  
+**Importante:** TermopilasConfig es para agregar las variable de entornos necesarias para la configuración del dispositivo.
 
 ```c++
 #include <TermopilasConfig.h>
@@ -56,4 +60,3 @@ La configuración completa se realiza desde las variables en el archivo 'termopi
 | HTTP Request | apiKey | String | Llave de la API |
 | Wifi | ssid | String | Nombre de la red de la red a la cual se va a conectar el ESP32 (SSID) |
 | Wifi | password | String | Contraseña de la red a la cual se va a conectar el ESP32 |
-
